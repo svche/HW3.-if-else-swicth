@@ -72,9 +72,9 @@ namespace HomeWork3
             double n2 = double.Parse(Console.ReadLine());
 
             Console.Write("Enter action:    +   -   *   /   : ");
-            char act = char.Parse(Console.ReadLine());
+            char act = Console.ReadLine();
 
-            if (act == +)
+            if (act == '+')
             {
                 Console.WriteLine("{0} + {1} = {2}", n1, n2, (n1 + n2));
             }
